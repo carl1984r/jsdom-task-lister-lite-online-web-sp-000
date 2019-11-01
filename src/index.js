@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function addFunction (event) {
     let task = document.getElementById('tasks');
     let li = document.createElement("li");
+    let form = document.getElementById('create-task-form')
     li.appendChild(document.createTextNode("Testing"));
     task.appendChild(li);
     event.preventDefault();
